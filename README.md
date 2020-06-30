@@ -18,7 +18,9 @@ Link to the Dataset on ZivaHub: [10.25375/uct.12315092](https://zivahub.uct.ac.z
 	- Run [/Scripts/Instantaneous/OptimalTimeScale](https://github.com/CHNPAT005/PC-FIE/blob/master/Scripts/Instantaneous/OptimalTimeScale) to reproduce Fig. 5 and 6.
 
 - To reproduce the Empirical analysis - download the processed dataset from ZivaHub and put the csv files into the folder `/Real Data`.
+	- Note that the dataset from ZivaHub was used for a previous paper titled: "Using the Epps effect to detect discrete data generating processes". It contains data from from 2019-05-02 to 2019-06-28, this paper only uses a partial dataset from 2019-06-24 to 2019-06-28. One can either download all the data or just the files with dates from 2019-06-24 to 2019-06-28.
 	- Run [/Scripts/Instantaneous/Empirical_Inst](https://github.com/CHNPAT005/PC-FIE/blob/master/Scripts/Instantaneous/Empirical_Inst) to reproduce Fig. 7-10. Note that the paper only reports surface and contour plots for 2019-06-25 and 2019-06-26, but the script file makes the plots for the week from 2019-06-24 to 2019-06-28.
+
 	
 
 ## Using the functions for other purposes:
