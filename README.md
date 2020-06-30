@@ -7,7 +7,7 @@
 
 Link to paper: 
 
-Link to the Dataset on ZivaHub: [Link](https://zivahub.uct.ac.za/articles/Malliavin-Mancino_estimators_implemented_with_the_non-uniform_fast_Fourier_transform_Dataset/11903442)
+Link to the Dataset on ZivaHub: [10.25375/uct.12315092](https://zivahub.uct.ac.za/articles/Using_the_Epps_effect_to_detect_discrete_data_generating_processes_Dataset/12315092/1)
 
 ## Steps for Replication:
 - Change directories for all the files under [/Scripts/Instantaneous](https://github.com/CHNPAT005/PC-FIE/tree/master/Scripts/Instantaneous). Currently the directories are set as: `cd("/Users/patrickchang1/PC-FIE")`. Change this to where you have stored the file `PC-FIE`. 
