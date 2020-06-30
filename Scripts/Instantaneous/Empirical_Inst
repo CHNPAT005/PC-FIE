@@ -10,7 +10,7 @@ using Optim; using Distributions; using ProgressMeter
 
 #---------------------------------------------------------------------------
 
-cd("/Users/patrickchang1/PCEPTG-MSC")
+cd("/Users/patrickchang1/PC-FIE")
 
 include("../../Functions/Instantaneous Estimators/MM-Inst")
 include("../../Functions/Instantaneous Estimators/MM-JR")
