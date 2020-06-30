@@ -76,7 +76,7 @@ The function requires 2 input variables:
 - t: (nx2) corresponding matrix of trade times, with non-trade times represented as NaNs.
 and three optional input variables.
 - N: (optional input) for the number of Fourier coefficients of the price process used in the convolution of the Malliavin-Mancino estimator (integer), controls the level of averaging and directly affects the time-scale investigated - defaults to the Nyquist frequency.
-- M: (optional input) for the number of Fourier coefficients of the volatility process using in the reconstruction of the spot estimates - defaults to $`M = \frac{1}{8} \frac{1}{2\pi} \sqrt{n} \log n`$ <img src="https://render.githubusercontent.com/render/math?math=M = \frac{1}{8} \frac{1}{2\pi} \sqrt{n} \log n">
+- M: (optional input) for the number of Fourier coefficients of the volatility process using in the reconstruction of the spot estimates - defaults to <img src="https://render.githubusercontent.com/render/math?math=M = \frac{1}{8} \frac{1}{2\pi} \sqrt{n} \log n">
 - tol: tolerance requested - for the NUFFT implementations - defaults to 10^-12.
 
 
